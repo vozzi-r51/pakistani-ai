@@ -1,0 +1,30 @@
+# Pak AI - Git Ignore
+# یہ فائل git کو بتاتی ہے کہ کن فائلز/فولڈرز کو ورژن کنٹرول میں شامل نہ کرے
+
+# Environment & Secrets
+.env           # API keys اور حساس معلومات
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS/IDE files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+.vscode/
+.idea/
+
+# Output/Build files
+*.zip
+*.tar.gz
+*.egg-info/
+
+# Logs
+*.log
+
+# Jupyter/Notebook
+.ipynb_checkpoints/
+
+# Test/Temp files
+*.tmp
+*.bak 
